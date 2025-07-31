@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Introduction to Group Theory - Your Name</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- KaTeX for Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" xintegrity="sha384-n8MVd4RsNIU0KOVEMVIROPtOQ9dNAKzn+H7rcs6vNyeKHINB5GTsc4UYqxUWCDhM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" xintegrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" xintegrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false} ] });"></script>
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <h1><a href="index.html">Nama Anda</a></h1>
+                <p>Mathematician, Developer, Thinker.</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="active">Writings</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+             <footer class="sidebar-footer">
+                <p>&copy; <span id="copyright-year"></span> Your Name</p>
+            </footer>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <article class="post">
+                <header class="post-header">
+                    <h1>An Introduction to Group Theory</h1>
+                    <p class="post-meta">Published on July 31, 2025</p>
+                </header>
+                
+                <p>
+                    Group theory is a foundational pillar of modern algebra. At its core, a group is a set equipped with a binary operation that satisfies a few simple axioms. Let's denote a group as $(G, *)$, where $G$ is a set and $*$ is the operation.
+                </p>
+
+                <h3>The Group Axioms</h3>
+                <p>For $(G, *)$ to be a group, it must satisfy four properties:</p>
+                <ol>
+                    <li><strong>Closure:</strong> For any two elements $a, b \in G$, the result of the operation, $a * b$, is also in $G$.</li>
+                    <li><strong>Associativity:</strong> For any $a, b, c \in G$, we have $(a * b) * c = a * (b * c)$.</li>
+                    <li><strong>Identity Element:</strong> There exists an element $e \in G$ such that for every element $a \in G$, the equation $e * a = a * e = a$ holds. This element $e$ is unique.</li>
+                    <li><strong>Inverse Element:</strong> For each $a \in G$, there exists an element $b \in G$ such that $a * b = b * a = e$, where $e$ is the identity element. This inverse is usually denoted as $a^{-1}$.</li>
+                </ol>
+
+                <h3>Example: Integers under Addition</h3>
+                <p>
+                    The set of integers $\mathbb{Z}$ with the addition operation, $(\mathbb{Z}, +)$, is a classic example of a group. The identity element is $0$, and the inverse of any integer $a$ is simply $-a$.
+                </p>
+
+                <h3>Why is this important?</h3>
+                <p>
+                    The abstract nature of groups makes them incredibly powerful. They appear in cryptography, physics, and even in solving puzzles like the Rubik's Cube. For instance, Euler's totient theorem, which states that if $\gcd(a, n) = 1$, then:
+                </p>
+                $$ a^{\phi(n)} \equiv 1 \pmod{n} $$
+                <p>
+                    This is a direct result from group theory, specifically from Lagrange's theorem applied to the multiplicative group of integers modulo $n$. The beauty lies in its simplicity and wide-ranging applications.
+                </p>
+            </article>
+        </main>
+    </div>
+
+    <!-- Local JavaScript -->
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Hi there, I'm Rendi Adinata
 
-I'm a mathematics undergraduate and software developer bridging the gap between abstract mathematical concepts and modern software engineering. 
+I'm a mathematics undergraduate student :D . (will add more later)
 
 ### 🔭 What I'm working on
 * TBD

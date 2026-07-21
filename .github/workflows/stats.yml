@@ -18,10 +18,10 @@ jobs:
         run: mkdir -p profile
 
       - name: Fetch GitHub Stats
-        run: curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical" > profile/stats.svg
+        run: curl -f -L -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical" -o profile/stats.svg
 
       - name: Fetch Top Languages
-        run: curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical" > profile/top-langs.svg
+        run: curl -f -L -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical" -o profile/top-langs.svg
 
       - name: Commit and Push SVGs
         run: |

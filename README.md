@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi there, I'm Rendi Adinata 👋
 
-<!--
-**xinuzo/xinuzo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a mathematics undergraduate and software developer bridging the gap between abstract mathematical concepts and modern software engineering. 
 
-Here are some ideas to get you started:
+### 🔭 What I'm working on
+* **Mathematics:** Exploring discrete geometry, combinatorics, matroid theory, and Lorentzian polynomials.
+* **Software Development:** Building interactive applications and games using engines like Flutter/Flame, and managing deployments via GitHub Pages.
+* **Language Learning Tools:** Developing tools and Chrome extensions for sentence mining to aid in learning Mandarin and Japanese.
+* **Content Creation:** Crafting educational animations for mathematics (arithmetic, trigonometric identities) using Manim and Canva.
+* **Typesetting:** Creating elegant mathematical documents and assignments using Typst.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Technologies & Tools
+* **Languages:** Dart, Python, JavaScript, HTML/CSS
+* **Math/Animation:** Typst, Manim, LaTeX
+* **Frameworks/Engines:** Flutter, Flame
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="profile/stats.svg" alt="GitHub Stats" />
+  <img src="profile/top-langs.svg" alt="Top Languages" />
+</div>
+
+---
+📫 **How to reach me:** [Insert LinkedIn/Email/Website link here]

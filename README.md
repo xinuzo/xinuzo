@@ -1,15 +1,15 @@
 # Hi there, I'm Rendi Adinata
 
-I'm a mathematics undergraduate student :D . (will add more later)
+I'm a mathematics undergraduate student.
 
-### 🔭 What I'm working on
-* TBD
+### What I'm working on
+* My undergrad thesis 😃
 ### 🛠️ Technologies & Tools
-* **Languages:** Dart, Python, JavaScript, HTML/CSS
-* **Math/Animation:** Typst, Manim, LaTeX
-* **Frameworks/Engines:** Flutter, Flame
+* **Languages:**  Python, C++
+* **Math/Animation:** Typst, LaTeX
 
-### 📊 GitHub Stats
+
+### GitHub Stats
 
 <div align="center">
  <img src="./profile/stats.svg" height="192" alt="Github stats card" /> <br />

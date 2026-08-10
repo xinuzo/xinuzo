@@ -2,12 +2,12 @@
 
 I am Rendi Adinata, a mathematics undergraduate student. You can find me in the following places:
 
-<a href="https://xinuzo.github.io"> <img src="./profile/icons/android-chrome-192x192.png" height="48"></a>
-<a href="mailto:rendy.adinata88@gmail.com"> <img src="./profile/icons/social-mail.png" height="48"></a>
+<a href="https://xinuzo.github.io"> <img src="./profile/icons/favicon.ico" height="48"></a>
+<a href="https://xinuzo.github.io/contact.html"> <img src="./profile/icons/social-mail.png" height="48"></a>
 <a href="https://xinuzo.github.io/blog"> <img src="./profile/icons/social-wordpress.png" height="48"></a>
 <a href="https://instagram.com/xinuzo"> <img src="./profile/icons/social-instagram.png" height="48"></a>
 
-I'm also an amateur programmer, I guess.
+I usually work in Python and I'm currently working on my undergrad thesis. 
 
 ##  Pictures of me coding
 

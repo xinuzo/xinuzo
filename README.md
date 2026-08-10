@@ -6,8 +6,6 @@ I am Rendi Adinata, a mathematics undergraduate student. You can find me in the 
 <a href="mailto:rendy.adinata88@gmail.com"> <img src="./profile/icons/social-mail.png" height="48"></a>
 <a href="https://xinuzo.github.io"> <img src="./profile/icons/social-wordpress.png" height="48"></a>
 <a href="https://instagram.com/"> <img src="./profile/icons/social-instagram.png" height="48"></a>
-<a href="https://youtube.com/"> <img src="./profile/icons/social-youtube.png" height="48"></a>
-<a href="https://discord.com/"> <img src="./profile/icons/social-discord.png" height="48"></a>
 
 I'm also an amateur programmer, I guess.
 

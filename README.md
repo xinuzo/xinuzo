@@ -12,5 +12,6 @@ I usually work in Python and I'm currently working on my undergrad thesis.
 ##  Pictures of me coding
 
 <!-- Replace the placeholder images below with your own memes! -->
+<img src= "https://medium.com/@katmhicks/learning-to-code-as-part-of-a-team-d51f1e87196e" height="192" alt="star wars git meme" /> <br />
  <img src="https://github-stats-extended.vercel.app/api?username=xinuzo&show_icons=true&theme=radical&include_all_commits=true" height="192" alt="GitHub stats card" /> <br />
  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xinuzo&layout=compact&langs_count=6&theme=radical" height="172" alt="Top languages card" />

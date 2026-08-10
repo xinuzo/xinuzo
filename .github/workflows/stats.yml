@@ -19,21 +19,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=buefy&include_all_commits=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch GitHub Stats
+        run: curl -f -L -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical" -o profile/stats.svg
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=vue
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch Top Languages
+        run: curl -f -L -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical" -o profile/top-langs.svg
 
       - name: Commit cards
         env:
@@ -42,6 +32,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "build: Update README cards" || exit 0
+          git commit -m "build: Update README cards using public API" || exit 0
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git push
